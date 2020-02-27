@@ -1,0 +1,6 @@
+name: "Thoranium"
+displayName: "[#cc99a2]Thor[#6666ff]anium"
+author: "c-baun"
+description: "More alternative ways of producing [accent]titanium[] and [accent]thorium[]."
+version: "0.1"
+minGameVersion: "103"

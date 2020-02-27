@@ -1,0 +1,40 @@
+name: Titanium Compounder
+type: GenericCrafter
+category: crafting
+description: Combines copper, lead, and silicon to produce titanium.
+###
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+itemCapacity: 100
+liquidCapacity: 50
+###
+updateEffect: smeltsmoke
+outputItem: titanium/10
+craftTime: 60
+###
+requirements: [
+	copper/170
+	lead/170
+	graphite/75
+	silicon/75
+]
+consumes: {
+	power: 2
+	items: {
+		items: [
+			copper/3
+			lead/3
+			silicon/2
+		]
+	}
+	liquid: {
+		liquid: water
+		amount: 0.1
+	}
+}
+###
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
